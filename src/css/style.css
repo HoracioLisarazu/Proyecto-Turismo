@@ -1,0 +1,143 @@
+@keyframes slidein {
+    from {
+        margin-bottom: 100%;
+        width: 200%;
+    }
+    to {
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+body{
+    background: linear-gradient(blue,#D1D6BF);     
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+img.band{
+    width: 120px;
+    height: 100px;
+}
+.menu {
+    display: flex;
+    margin-right: 10px;
+}
+.menu a {
+    display: block;
+    padding: 30px 50px 0px 0px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+img.principal{
+    width: 100%;
+    height: 100%;
+    margin: 60px 0px 0px 0px;
+}
+h1.titulo{
+    font-size: 55px;
+    margin: 60px 10px 10px 10px;
+    color: black;
+}
+h2.subtitulo{
+    font-size: 35px;
+    width: 100%;
+    color: white;
+    margin: 30px 0px 0px 10px;
+}
+img.imagen1{
+    display: flex;
+    width: 30%;
+    height: 30%;
+    margin: 100px 0px 0px 30px;
+}
+.contenido1{
+    font-size: 30px;
+    display: block;
+    color: white;
+    margin: 50px 50px 50px 100px;
+        inline-size: 1200px;
+            line-height: 200%
+}
+img.imagen2{
+    display: flex;
+        width: 30%;
+        height: 30%;
+        margin: 100px 0px 0px 30px;
+}
+.contenido2{
+    font-size: 30px;
+        display: block;
+        color: white;
+        margin: 50px 50px 50px 100px;
+            inline-size: 1200px;
+                line-height: 200%
+}
+img.imagen3 {
+    width: 30%;
+    height: 30%;
+    margin: 100px 0px 0px 30px;
+}
+.contenido3{
+     font-size: 30px;
+    display: block;
+    color: white;
+    margin: 50px 120px 80px 120px;
+        inline-size: 1200px;
+            line-height: 200%
+}
+h1.Pac{
+    font-size: 35px;
+        margin: 20px 200px 20px 200px;
+        color: white;
+}
+article.cor{
+    text-align: right;
+    padding: 0px 100px 0px 0px;
+}
+article.bari{
+    text-align: right;
+    padding: 0px 100px 0px 0px;
+}
+img.imagenF{
+    width: 30%;
+    height: 30%;
+    margin: 100px 10px 0px 100px;
+}
+h1.texto_final{
+    font-size: 40px;
+        display: block;
+        color: white;
+        margin: 50px 50px 50px 100px;
+        padding: 30px 500px 30px 500px;
+}
+section.Fin{
+    text-align: center;
+}
+footer{
+    text-align: right;
+    font-size: 30px;
+    margin: 50px;
+}
+footer a{
+    color: black;
+    margin: 30px;
+}
+h1.CONTACTANOS{
+    margin: 40px;
+}
